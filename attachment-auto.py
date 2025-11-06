@@ -11,9 +11,9 @@ import re
 import unicodedata
 
 # ===== Cuckoo API =====
-REST_URL = "http://125.177.200.31:65000/tasks/create/file"
-GET_URL_BASE = "http://125.177.200.31:65000/tasks/report/"
-HEADERS = {"Authorization": "Bearer KSGSBG0cOCKz5T7AKVYKbg"}
+REST_URL = "http://[쿠쿠샌드박스 서버 ip]:[지정 포트]/tasks/create/file"
+GET_URL_BASE = "http://[쿠쿠샌드박스 서버 ip]:[지정 포트]/tasks/report/"
+HEADERS = {"Authorization": "Bearer [쿠쿠샌드박스 API Token]"}
 
 POST_TIMEOUT = 15       # 업로드 타임아웃(초)
 GET_TIMEOUT = 10        # 리포트 조회 타임아웃(초)
